@@ -22,25 +22,6 @@ A responsive personal portfolio website showcasing my skills, projects, and prof
 - AOS (Animate On Scroll library)
 - Swiper JS (for sliders)
 
-## Setup and Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/Rishaan08/Portfolio.git
-   ```
-
-2. Open the project folder
-   ```
-   cd Portfolio
-   ```
-
-3. Open index.html in your browser or set up a local server:
-   ```
-   python -m http.server 8000
-   ```
-
-4. Visit http://localhost:8000 in your web browser
-
 ## Usage
 
 This portfolio website is designed to showcase my professional experience, skills, and projects. Visitors can:
