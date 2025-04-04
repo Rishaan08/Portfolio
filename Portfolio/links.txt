@@ -1,2 +1,0 @@
-      <a href="https://github.com/Rishaan08" class="github" target="_blank"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/rishaanyadav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
