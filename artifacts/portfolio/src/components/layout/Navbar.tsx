@@ -68,12 +68,16 @@ export function Navbar() {
             onClick={(e) => scrollToSection(e, "#home")}
             className="flex items-center"
           >
-            <span
-              style={{ fontFamily: "'Syne', sans-serif" }}
-              className="text-2xl font-bold tracking-tight select-none"
-            >
-              <span className="text-white">R</span><span className="text-sky-400">y</span>
-            </span>
+            <img
+              src="/assets/img/logo-ry.png"
+              alt="Ry"
+              style={{
+                height: "46px",
+                width: "auto",
+                mixBlendMode: "screen",
+                filter: "brightness(1.4) contrast(1.1)",
+              }}
+            />
           </a>
 
           {/* Desktop Nav */}
