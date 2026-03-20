@@ -66,9 +66,14 @@ export function Navbar() {
           <a
             href="#home"
             onClick={(e) => scrollToSection(e, "#home")}
-            className="text-2xl font-display font-bold text-white tracking-tight hover:text-primary transition-colors"
+            className="flex items-center"
           >
-            Rishaan<span className="text-primary">.</span>
+            <span
+              style={{ fontFamily: "'Syne', sans-serif" }}
+              className="text-2xl font-bold tracking-tight select-none"
+            >
+              <span className="text-white">R</span><span className="text-sky-400">y</span>
+            </span>
           </a>
 
           {/* Desktop Nav */}

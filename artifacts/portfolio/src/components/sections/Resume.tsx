@@ -28,6 +28,19 @@ export function Resume() {
           viewport={{ once: true }}
           className="glass-card rounded-3xl p-8 md:p-12 relative"
         >
+          <div className="flex justify-center mb-8">
+            <Button size="lg" className="px-8 shadow-primary/20" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1eMjtvc0sPg9HVm33_f2jVMF1mojZlsUZ/view?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FileText className="mr-2 w-5 h-5" />
+                View
+              </a>
+            </Button>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-10">
             {/* Education */}
             <div>
@@ -79,18 +92,6 @@ export function Resume() {
             </div>
           </div>
 
-          <div className="flex justify-center pt-8 border-t border-border">
-            <Button size="lg" className="px-8 shadow-primary/20" asChild>
-              <a 
-                href="https://drive.google.com/file/d/1FT10WH4F8I--5O6PAaWaVQYoxOehhE8H/view?usp=share_link" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FileText className="mr-2 w-5 h-5" />
-                View Full Resume
-              </a>
-            </Button>
-          </div>
         </motion.div>
       </div>
     </section>
