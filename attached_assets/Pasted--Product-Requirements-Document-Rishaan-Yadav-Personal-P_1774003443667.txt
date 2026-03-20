@@ -1,0 +1,286 @@
+# Product Requirements Document
+## Rishaan Yadav — Personal Portfolio Website
+**Version:** 1.0  
+**Prepared for:** Replit AI / Developer  
+**Author:** Rishaan Yadav  
+
+---
+
+## 1. Project Overview
+
+Build a modern, fully responsive personal portfolio website for Rishaan Yadav — a Computer Science Engineering graduate specializing in Machine Learning, AI, and Data Science. The site must look polished on both desktop and mobile, have smooth navigation, and allow visitors to contact Rishaan directly via an email form without leaving the site.
+
+---
+
+## 2. Tech Stack
+
+- **HTML5, CSS3, Vanilla JavaScript** (no heavy frameworks needed)
+- **EmailJS** for the contact form (sends email directly from the browser — no backend required)
+- **Google Fonts** for typography
+- **Font Awesome** or **Lucide Icons** for icons
+- Fully **mobile responsive** using CSS Flexbox/Grid + media queries
+
+---
+
+## 3. Design Direction
+
+- **Style:** Modern, clean, dark-accented with a professional feel. Think deep navy/charcoal background with bright accent color (e.g., electric blue `#0ea5e9` or teal `#14b8a6`).
+- **Font pairing:** Display heading font (e.g., `Syne` or `DM Serif Display`) + clean body font (e.g., `DM Sans` or `Outfit`)
+- **Animations:** Subtle fade-in on scroll for sections, smooth hover states on cards and buttons
+- **NO generic purple gradient AI look**
+- Mobile-first design — every section must look great at 375px width and above
+
+---
+
+## 4. Site Structure & Navigation
+
+### Navbar (Fixed at Top)
+- Logo / Name: **Rishaan Yadav** (left side)
+- Nav links (right side): Home | About | Skills | Projects | Achievements | Resume | Contact
+- Hamburger menu on mobile
+- Smooth scroll to sections on click
+- Active link highlight as user scrolls
+
+### Sections (in order):
+1. Home (Hero)
+2. About
+3. Skills
+4. Projects
+5. Achievements
+6. Resume
+7. Contact
+
+---
+
+## 5. Section-by-Section Requirements
+
+---
+
+### 5.1 Home (Hero Section)
+
+- Full-screen or large hero area
+- **Headline:** `Rishaan Yadav`
+- **Subheading animated typewriter effect** cycling through:
+  - `Machine Learning Engineer`
+  - `Data Scientist`
+  - `AI Enthusiast`
+- Short tagline: *"Building intelligent systems that solve real-world problems."*
+- Two CTA buttons:
+  - **View My Work** → scrolls to Projects section
+  - **Contact Me** → scrolls to Contact section
+- Background: subtle animated gradient or particle effect (keep it light/performant)
+
+---
+
+### 5.2 About Section
+
+- Two-column layout on desktop (photo left, text right); stacked on mobile
+- **Profile photo:** Use placeholder `assets/img/Profile.jpeg` (same as existing site)
+- **About text:**
+
+> I'm a Computer Science Engineering graduate from SRM Institute of Science and Technology, Chennai, with a strong passion for technology and innovation. My academic journey has given me a solid foundation in computing, and I've built expertise in Machine Learning through hands-on projects and research — graduating with a CGPA of 9.51/10.
+>
+> I completed my schooling at St. Lawrence Convent, New Delhi, where I've always been driven to improve both personally and professionally. Beyond tech, I find balance in music, personal development books, and immersing myself in new places and perspectives through travel.
+>
+> In my downtime, I enjoy movies, series, and meaningful conversations. I believe in bringing dedication and a growth mindset to everything I do — whether it's a research project or a personal goal.
+
+- **Info grid** below text:
+  | Label | Value |
+  |---|---|
+  | Birthday | 18 August 2003 |
+  | Phone | +91 8527113865 |
+  | City | New Delhi, India |
+  | Email | yadav.rishaan08@gmail.com |
+
+- Social icons row: [LinkedIn](https://www.linkedin.com/in/rishaanyadav/) | [GitHub](https://github.com/Rishaan08) | Email
+
+---
+
+### 5.3 Skills Section
+
+- Section heading: **Skills**
+- Display skills as **styled tag/pill cards** grouped into categories (not progress bars)
+- **Categories and skills:**
+
+**Programming & Data**
+- Python, SQL, Microsoft Excel, Power BI
+
+**Machine Learning & AI**
+- Machine Learning, Deep Learning, Neural Networks, NLP, Feature Engineering, Model Evaluation
+
+**GenAI & LLM**
+- Transformers, RAG (Retrieval-Augmented Generation), Prompt Engineering
+
+**Frameworks & Libraries**
+- TensorFlow, Keras, Pandas, NumPy, Matplotlib, Seaborn, Flask
+
+**Cloud & DevOps**
+- AWS (EC2, S3, EBS, RDS), Docker, Terraform, Linux
+
+**Tools & Platforms**
+- Git, GitHub, GitHub Actions, VS Code, Kaggle, Google Colab
+
+- Each pill/tag has a hover effect with the accent color
+- Layout: responsive wrap grid
+
+---
+
+### 5.4 Projects Section
+
+- Section heading: **Projects**
+- Display **3 project cards** (2 main + 1 GitHub CTA card), exactly like the existing portfolio layout
+- Each card has: title, tech stack tags, short description, and an optional GitHub link icon
+
+#### Project Card 1 — CERAS
+- **Title:** CERAS: Cognitive Efficiency Reasoning Alignment System
+- **Tags:** Machine Learning · Behavioral Modeling · React
+- **Duration:** Dec 2025 – Present
+- **Description:** A machine learning pipeline that estimates Cognitive Efficiency from behavioral interaction data. Built a React dashboard to visualize learner behavior metrics and model predictions, supporting personalized learning guidance.
+
+#### Project Card 2 — SecureGuard AI
+- **Title:** SecureGuard AI
+- **Tags:** LangChain · LLMs · RAG · Vector Retrieval
+- **Duration:** Oct 2025
+- **Description:** A Retrieval-Augmented Generation (RAG) system for grounded Q&A over domain-specific documents. Implemented document ingestion, embedding generation, and vector retrieval with prompt optimization to reduce hallucinations.
+
+#### Card 3 — GitHub CTA
+- GitHub logo/icon (large)
+- Heading: **More Projects**
+- Subtext: *Explore all my projects and contributions on GitHub*
+- Button: **Visit My GitHub** → links to `https://github.com/Rishaan08` (opens in new tab)
+
+---
+
+### 5.5 Achievements Section
+
+- Section heading: **Achievements**
+- Display as **timeline or card grid** — cards preferred (icon + title + description)
+- Each card: trophy/medal icon, competition name, position/rank, organizer
+
+#### Achievement Cards:
+
+1. **🥈 Runner-Up — Vista Codefest ML Hackathon**  
+   Indian Institute of Technology, BHU Varanasi · April 2024  
+   *Secured 2nd place in the IIT BHU ML Hackathon, showcasing machine learning and coding proficiency.*
+
+2. **🥇 1st Place — Genesis**  
+   IMI Bhubaneswar · 2025  
+   *Achieved first place at Genesis, demonstrating strong analytical and problem-solving skills.*
+
+3. **🥈 Runner-Up — Data Samurai**  
+   CINTEL Student Association, SRMIST · February 2025  
+   *Secured runner-up position in the Data Samurai competition at SRMIST.*
+
+4. **🥈 Runner-Up — Yukta 2024**  
+   T.A. Pai Management Institute, Manipal · February 2025  
+   *Placed second at Yukta 2024, a prestigious inter-college competition.*
+
+5. **🌍 Ranked 77th — ICPC**  
+   International Collegiate Programming Contest · Tehran  
+   *Ranked 77th in the highly competitive ICPC, demonstrating capability in complex algorithmic challenges at an international level.*
+
+6. **📊 Ranked 27th — Zindi African Air Quality Prediction**  
+   Zindi Platform  
+   *Secured 27th place in this global data science competition, highlighting analytical skills applied to real-world environmental challenges.*
+
+---
+
+### 5.6 Resume Section
+
+- Section heading: **Resume**
+- Brief intro text: *"A snapshot of my academic background, technical skills, and key experiences."*
+- Display a **preview/summary card** showing:
+  - Education: B.Tech CSE, SRMIST — CGPA 9.51 (2022–2026)
+  - Top Skills: Python, ML, Deep Learning, NLP, AWS, Power BI
+  - Certifications: Microsoft Power BI (PL-300)
+- **One prominent CTA button:** `View Full Resume`
+  - Clicking opens the resume PDF **in a new browser tab** (not downloaded)
+  - Link: `https://drive.google.com/file/d/1FT10WH4F8I--5O6PAaWaVQYoxOehhE8H/view?usp=share_link`
+  - Use `<a href="..." target="_blank" rel="noopener noreferrer">` — do NOT use the `download` attribute
+
+---
+
+### 5.7 Contact Section
+
+- Section heading: **Contact**
+- Two-column layout on desktop, stacked on mobile
+- **Left column — Contact Info:**
+  - 📧 Email: yadav.rishaan08@gmail.com
+  - 📞 Phone: +91 8527113865
+  - 📍 City: New Delhi, India
+  - Social links: LinkedIn, GitHub
+  - **NO map embed**
+
+- **Right column — Contact Form (EmailJS powered):**
+  - Fields: Your Name, Your Email, Subject, Message
+  - Button: **Send Message**
+  - On success: show inline success message — *"Your message has been sent. Thank you!"*
+  - On error: show inline error message — *"Something went wrong. Please try again."*
+  - **EmailJS Setup:**
+    - Install via CDN: `<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>`
+    - Initialize with the following credentials (use exactly as shown):
+      - **Public Key:** `Le_Jirihn-0aO6x2J`
+      - **Service ID:** `service_2g4l25m`
+      - **Template ID:** `template_joj0lig`
+    - On form submit: call `emailjs.sendForm('service_2g4l25m', 'template_joj0lig', formElement)`
+    - Initialize EmailJS in the `<head>` or before form logic: `emailjs.init('Le_Jirihn-0aO6x2J')`
+    - Emails will arrive at `yadav.rishaan08@gmail.com`
+    - Template variables must match: `{{from_name}}`, `{{from_email}}`, `{{subject}}`, `{{message}}`
+    - Form field `name` attributes must be: `from_name`, `from_email`, `subject`, `message`
+
+---
+
+## 6. Footer
+
+- Simple one-line footer
+- Text: `© 2025 Rishaan Yadav. All rights reserved.`
+- Social icons: LinkedIn, GitHub, Email
+
+---
+
+## 7. Responsive Breakpoints
+
+| Breakpoint | Behavior |
+|---|---|
+| < 768px (mobile) | Single column, hamburger nav, stacked cards |
+| 768px–1024px (tablet) | 2-column grids where applicable |
+| > 1024px (desktop) | Full layout as described above |
+
+---
+
+## 8. Performance & Accessibility
+
+- Use `alt` tags on all images
+- Semantic HTML (`<nav>`, `<main>`, `<section>`, `<footer>`)
+- Smooth scroll: `scroll-behavior: smooth` on `html`
+- Lazy load images
+- No external dependencies beyond: Google Fonts, Font Awesome/Lucide, EmailJS
+
+---
+
+## 9. Assets Needed from Rishaan
+
+| Asset | Details |
+|---|---|
+| Profile photo | `assets/img/Profile.jpeg` — same as existing site |
+| Resume PDF link | Already provided (Google Drive link above) |
+| EmailJS credentials | Public Key, Service ID, Template ID — set up at emailjs.com |
+| LinkedIn URL | https://www.linkedin.com/in/rishaanyadav/ |
+
+---
+
+## 10. What's Changed vs. Existing Portfolio
+
+| Old Site | New Site |
+|---|---|
+| "Third-year student" | Updated to "Graduate" |
+| No Achievements section | ✅ Full Achievements section with 6 entries |
+| No dedicated Resume section | ✅ Resume section with preview + View button (opens, not downloads) |
+| Map in Contact | ❌ Removed — clean contact info + form only |
+| Old project cards (IoT, Plant Disease) | ✅ Updated to CERAS + SecureGuard AI |
+| Skills as progress bars | ✅ Replaced with pill/tag cards by category |
+| Basic navbar | ✅ Fixed navbar with all 7 sections + mobile hamburger |
+
+---
+
+*End of PRD*

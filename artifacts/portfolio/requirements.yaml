@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "For smooth scroll animations, hero typewriter effects, and section fade-ins"
+  "@emailjs/browser": "For handling the contact form submissions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes safely"
+  "lucide-react": "For beautiful consistent icons across the portfolio"
+
+images:
+  - path: "artifacts/portfolio/public/images/hero-bg.png"
+    description: "Abstract subtle particle mesh background in deep navy and charcoal with very faint electric blue light leaks, modern professional dark mode"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a single page application (SPA) portfolio.
+  - Using EmailJS for the contact form as requested in PRD.
+  - Relying on CSS scroll-behavior: smooth for navigation.
