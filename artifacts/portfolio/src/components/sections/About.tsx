@@ -57,8 +57,6 @@ export function About() {
             viewport={{ once: true }}
             className="lg:col-span-8"
           >
-            <h3 className="text-2xl font-bold mb-6">Machine Learning Engineer & Developer</h3>
-            
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed mb-10">
               <p>
                 I'm a Computer Science Engineering graduate from SRM Institute of Science and Technology, Chennai, with a strong passion for technology and innovation. My academic journey has given me a solid foundation in computing, and I've built expertise in Machine Learning through hands-on projects and research — graduating with a CGPA of 9.51/10.
@@ -85,30 +83,6 @@ export function About() {
               ))}
             </div>
 
-            <div className="flex gap-4">
-              <a 
-                href="https://www.linkedin.com/in/rishaanyadav/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white hover:bg-primary hover:text-white transition-colors border border-border"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a 
-                href="https://github.com/Rishaan08" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white hover:bg-primary hover:text-white transition-colors border border-border"
-              >
-                <Github size={20} />
-              </a>
-              <a 
-                href="mailto:yadav.rishaan08@gmail.com" 
-                className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white hover:bg-primary hover:text-white transition-colors border border-border"
-              >
-                <Mail size={20} />
-              </a>
-            </div>
           </motion.div>
         </div>
       </div>

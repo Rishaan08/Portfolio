@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, ExternalLink, Code2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Github, Code2 } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -82,27 +81,24 @@ export function Projects() {
           ))}
 
           {/* GitHub CTA Card */}
-          <motion.div
+          <motion.a
+            href="https://github.com/Rishaan08"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="glass-card rounded-2xl overflow-hidden flex flex-col justify-center items-center text-center p-8 border-dashed border-2 hover:border-primary/50 transition-colors"
+            className="glass-card rounded-2xl overflow-hidden flex flex-col justify-center items-center text-center p-8 border-dashed border-2 border-border hover:border-primary/50 hover:-translate-y-2 transition-all duration-300 cursor-pointer group"
           >
-            <div className="w-20 h-20 rounded-full bg-secondary/50 flex items-center justify-center mb-6 text-muted-foreground">
+            <div className="w-20 h-20 rounded-full bg-secondary/50 flex items-center justify-center mb-6 text-muted-foreground group-hover:text-primary group-hover:bg-primary/10 transition-colors">
               <Github size={40} />
             </div>
-            <h3 className="text-2xl font-bold mb-2">More Projects</h3>
-            <p className="text-muted-foreground mb-8">
+            <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">More Projects</h3>
+            <p className="text-muted-foreground">
               Explore all my projects, contributions, and open-source work on GitHub.
             </p>
-            <Button asChild>
-              <a href="https://github.com/Rishaan08" target="_blank" rel="noopener noreferrer">
-                Visit My GitHub
-                <ExternalLink className="ml-2 w-4 h-4" />
-              </a>
-            </Button>
-          </motion.div>
+          </motion.a>
         </div>
       </div>
     </section>

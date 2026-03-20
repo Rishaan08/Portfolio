@@ -108,7 +108,7 @@ export function Contact() {
             </div>
 
             <h3 className="text-xl font-bold mb-6">Social Profiles</h3>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <a 
                 href="https://www.linkedin.com/in/rishaanyadav/" 
                 target="_blank" 
@@ -126,6 +126,17 @@ export function Contact() {
               >
                 <Github className="text-muted-foreground group-hover:text-white transition-colors" size={20} />
                 <span className="font-medium">GitHub</span>
+              </a>
+              <a 
+                href="https://orcid.org/0009-0008-7705-023X" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 px-5 py-3 rounded-xl bg-secondary/50 border border-border hover:border-primary/50 hover:bg-primary/5 transition-all group"
+              >
+                <svg viewBox="0 0 24 24" width="20" height="20" className="text-muted-foreground group-hover:text-[#A6CE39] transition-colors fill-current">
+                  <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.422.947.947s-.422.947-.947.947-.947-.422-.947-.947.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/>
+                </svg>
+                <span className="font-medium">ORCID</span>
               </a>
             </div>
           </motion.div>
