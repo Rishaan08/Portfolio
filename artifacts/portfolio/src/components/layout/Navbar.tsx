@@ -68,16 +68,27 @@ export function Navbar() {
             onClick={(e) => scrollToSection(e, "#home")}
             className="flex items-center"
           >
-            <img
-              src="/assets/img/logo-ry.png"
-              alt="Ry"
+            <div
               style={{
-                height: "46px",
-                width: "auto",
-                mixBlendMode: "screen",
-                filter: "brightness(1.4) contrast(1.1)",
+                background: "linear-gradient(135deg, rgba(14,165,233,0.12), rgba(14,165,233,0.04))",
+                border: "1px solid rgba(14,165,233,0.25)",
+                borderRadius: "10px",
+                padding: "3px 10px 3px 6px",
+                display: "inline-flex",
+                alignItems: "center",
+                backdropFilter: "blur(4px)",
               }}
-            />
+            >
+              <img
+                src="/assets/img/logo-ry.png"
+                alt="Ry"
+                style={{
+                  height: "38px",
+                  width: "auto",
+                  filter: "brightness(1.8) contrast(1.2) drop-shadow(0 0 6px rgba(255,255,255,0.4))",
+                }}
+              />
+            </div>
           </a>
 
           {/* Desktop Nav */}
