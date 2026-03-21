@@ -258,7 +258,7 @@ Build a modern, fully responsive personal portfolio website for Rishaan Yadav �
 
 ---
 
-## 9. Assets Needed from Rishaan
+## 9. Assets Needed
 
 | Asset | Details |
 |---|---|
@@ -266,20 +266,6 @@ Build a modern, fully responsive personal portfolio website for Rishaan Yadav �
 | Resume PDF link | Already provided (Google Drive link above) |
 | EmailJS credentials | Public Key, Service ID, Template ID — set up at emailjs.com |
 | LinkedIn URL | https://www.linkedin.com/in/rishaanyadav/ |
-
----
-
-## 10. What's Changed vs. Existing Portfolio
-
-| Old Site | New Site |
-|---|---|
-| "Third-year student" | Updated to "Graduate" |
-| No Achievements section | ✅ Full Achievements section with 6 entries |
-| No dedicated Resume section | ✅ Resume section with preview + View button (opens, not downloads) |
-| Map in Contact | ❌ Removed — clean contact info + form only |
-| Old project cards (IoT, Plant Disease) | ✅ Updated to CERAS + SecureGuard AI |
-| Skills as progress bars | ✅ Replaced with pill/tag cards by category |
-| Basic navbar | ✅ Fixed navbar with all 7 sections + mobile hamburger |
 
 ---
 

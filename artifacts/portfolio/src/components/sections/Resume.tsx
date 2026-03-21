@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Resume() {
@@ -34,7 +33,6 @@ export function Resume() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FileText className="mr-2 w-5 h-5" />
               View
             </a>
           </Button>

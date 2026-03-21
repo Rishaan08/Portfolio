@@ -70,13 +70,13 @@ export function Navbar() {
           >
             <div
               style={{
-                background: "linear-gradient(135deg, rgba(14,165,233,0.12), rgba(14,165,233,0.04))",
-                border: "1px solid rgba(14,165,233,0.25)",
-                borderRadius: "10px",
-                padding: "3px 10px 3px 6px",
+                background: "transparent",
+                border: "none",
+                borderRadius: "0px",
+                padding: 0,
                 display: "inline-flex",
                 alignItems: "center",
-                backdropFilter: "blur(4px)",
+                backdropFilter: "none",
               }}
             >
               <img
@@ -85,7 +85,11 @@ export function Navbar() {
                 style={{
                   height: "38px",
                   width: "auto",
-                  filter: "brightness(1.8) contrast(1.2) drop-shadow(0 0 6px rgba(255,255,255,0.4))",
+                  transform: "translateX(-6px) scale(1.35)",
+                  transformOrigin: "left center",
+                  display: "block",
+                  filter:
+                    "brightness(1.8) contrast(1.2) drop-shadow(0 0 6px rgba(255,255,255,0.4))",
                 }}
               />
             </div>

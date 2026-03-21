@@ -39,7 +39,7 @@ export function About() {
                 <img 
                   src="/assets/img/Profile.jpeg" 
                   alt="Rishaan Yadav" 
-                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-full object-cover object-top"
                   onError={() => setImgError(true)}
                 />
               ) : (
