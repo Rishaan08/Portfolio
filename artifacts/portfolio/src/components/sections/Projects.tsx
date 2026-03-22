@@ -7,14 +7,14 @@ const PROJECTS = [
     tags: ["Machine Learning", "Behavioral Modeling", "React"],
     duration: "Dec 2025 – Present",
     description: "A machine learning pipeline that estimates Cognitive Efficiency from behavioral interaction data. Built a React dashboard to visualize learner behavior metrics and model predictions, supporting personalized learning guidance.",
-    github: "https://github.com/Rishaan08"
+    github: "https://github.com/Rishaan08/CERAS-Cognitive-Efficiency-Reasoning-Alignment-System"
   },
   {
     title: "SecureGuard AI",
     tags: ["LangChain", "LLMs", "RAG", "Vector Retrieval"],
     duration: "Oct 2025",
     description: "A Retrieval-Augmented Generation (RAG) system for grounded Q&A over domain-specific documents. Implemented document ingestion, embedding generation, and vector retrieval with prompt optimization to reduce hallucinations.",
-    github: "https://github.com/Rishaan08"
+    github: "https://github.com/Rishaan08/Secureguard-AI"
   }
 ];
 
