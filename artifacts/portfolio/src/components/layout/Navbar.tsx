@@ -58,7 +58,7 @@ export function Navbar() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled ? "glass py-4" : "bg-transparent py-6"
+        isScrolled ? "glass py-5" : "bg-transparent py-8"
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -80,16 +80,13 @@ export function Navbar() {
               }}
             >
               <img
-                src="/assets/img/logo-ry.png"
-                alt="Ry"
+                src="/assets/img/logo.png"
+                alt="Logo"
                 style={{
-                  height: "38px",
-                  width: "auto",
-                  transform: "translateX(-6px) scale(1.35)",
-                  transformOrigin: "left center",
+                  height: "130px",
+                  width: "130px",
                   display: "block",
-                  filter:
-                    "brightness(1.8) contrast(1.2) drop-shadow(0 0 6px rgba(255,255,255,0.4))",
+                  borderRadius: "50%", // Optional: makes it look like a typical profile/logo image if it's a square
                 }}
               />
             </div>
