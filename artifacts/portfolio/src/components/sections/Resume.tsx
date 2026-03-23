@@ -29,7 +29,7 @@ export function Resume() {
         >
           <Button size="lg" className="px-8" asChild>
             <a
-              href="https://drive.google.com/file/d/1eMjtvc0sPg9HVm33_f2jVMF1mojZlsUZ/view?usp=drive_link"
+              href="https://drive.google.com/file/d/15XokqKN93r8dAahJRyVpgXyukVO4kgmu/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
